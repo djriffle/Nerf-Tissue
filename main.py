@@ -75,6 +75,9 @@ def positionalencoding2d(d_model, height, width):
     return pe
 
 def machine_learning(adata):
+    '''
+    returns 2d positonal encodings just so we have them 
+    '''
     # Turn coordinates into positional encodings
     coordinates = (adata.obsm["spatial"] / 100).astype(int)
 
