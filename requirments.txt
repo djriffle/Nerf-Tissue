@@ -2,10 +2,8 @@ scanpy
 pandas
 matplotlib
 seaborn
-tensorflow
 numpy
 sklearn
-
 anndata>=0.7.8
 sinfo>=0.3.4
 IPython>=8.1.0
